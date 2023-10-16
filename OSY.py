@@ -23,9 +23,18 @@ def load_coordinates(file_path):
         coordinates = yaml.safe_load(file)
     return coordinates
 
-def capture_screenshot(url_template, output_folder, location, lat_steps, lon_steps, start_coordinates, end_coordinates):
+def capture_screenshot(url_template, output_folder, location, start_coordinates, end_coordinates):
     lat_range = location['lat_range']
     lon_range = location['lon_range']
+    Name_Uni = location['name']
+
+    lon_steps = int(round((abs(lon_range[1] - lon_range[0])) / lon_step_ratio, 0))
+    lat_steps = int(round((abs(lat_range[1] - lat_range[0])) / lat_step_ratio, 0))
+
+    print('Name:', Name_Uni)
+    print('Long Steps:', lon_steps)
+    print('Lat Steps:', lat_steps)
+
 
     chrome_options = Options()
     chrome_options.add_argument("--headless")
@@ -33,6 +42,7 @@ def capture_screenshot(url_template, output_folder, location, lat_steps, lon_ste
     chrome_options.add_argument("--window-size=1920x1080")
 
     with webdriver.Chrome(options=chrome_options) as driver:
+        print('*'*150)
         for lon_index in range(lon_steps):
             current_lon = lon_range[0] + lon_index * (lon_range[1] - lon_range[0]) / lon_steps
 
@@ -60,19 +70,19 @@ def capture_screenshot(url_template, output_folder, location, lat_steps, lon_ste
 
 # Variables
 url_template = 'https://www.openstreetmap.org/#map=17/{lat:.5f}/{lon:.5f}'
-output_folder = 'D:/Progasm/venv/OSM_Y/OUT IMAGES'
+output_folder = 'D:/Progasm/venv/OSM_Y/OUT IMAGES/test_1'
 
 start_coordinates = (437, 195)
 end_coordinates = (1870, 999)
-
-
-lat_steps = 8
-lon_steps = 8
 
 # YAML file config
 coordinates_file = 'OSM.yml'
 locations = load_coordinates(coordinates_file)
 
+lon_step_ratio = 0.00359625 # lenght of image
+lat_step_ratio = 0.00118875 # width of image
+
 os.makedirs(output_folder, exist_ok=True)
 for location in locations:
-    capture_screenshot(url_template, output_folder, location, lat_steps, lon_steps, start_coordinates, end_coordinates)
+    print('*' * 150)
+    capture_screenshot(url_template, output_folder, location, start_coordinates, end_coordinates)

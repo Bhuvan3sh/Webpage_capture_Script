@@ -3,15 +3,16 @@
 #Mai@id - abhuavnesh501@gmail.com
 
 
-
-
 #YAML file config
 
+  - name: "Pennsilvena State University"
+    lat_range: [40.79329, 40.80262]
+    lon_range: [-77.84608, -77.86688]
 
-- name: "Pennsilvena State University"
-  lat_range: [40.79329, 40.80262]
-  lon_range: [-77.84608, -77.86688]
+  - name: "National University of Singapore"
+    lat_range: [1.29234, 1.30185]
+    lon_range: [103.76876, 103.79753]
 
-- name: "National University of Singapore"
-  lat_range: [1.29234, 1.30185]
-  lon_range: [103.76876, 103.79753]
+  - name: "UC San Diego"
+    lat_range: [32.88836, 32.84715]
+    lon_range: [-117.25075, -117.17694]
