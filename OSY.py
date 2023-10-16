@@ -28,10 +28,11 @@ def capture_screenshot(url_template, output_folder, location, start_coordinates,
     lon_range = location['lon_range']
     Name_Uni = location['name']
 
-    lon_steps = int(round((abs(lon_range[1] - lon_range[0])) / lon_step_ratio, 0))
-    lat_steps = int(round((abs(lat_range[1] - lat_range[0])) / lat_step_ratio, 0))
+    lon_steps = int(round((abs(lon_range[1] - lon_range[0])) / lon_step_ratio, 0))  #Formula for lon step
+    lat_steps = int(round((abs(lat_range[1] - lat_range[0])) / lat_step_ratio, 0))  #Formula for lat step
 
-    print('Name:', Name_Uni)
+    #Logging
+    print('Name of Location:', Name_Uni)
     print('Long Steps:', lon_steps)
     print('Lat Steps:', lat_steps)
 
@@ -40,6 +41,8 @@ def capture_screenshot(url_template, output_folder, location, start_coordinates,
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920x1080")
+
+    i = 1
 
     with webdriver.Chrome(options=chrome_options) as driver:
         print('*'*150)
@@ -63,24 +66,27 @@ def capture_screenshot(url_template, output_folder, location, start_coordinates,
                 x2, y2 = end_coordinates
                 cropped_image = image.crop((x1, y1, x2, y2))
 
-                output_file = os.path.join(output_folder, f'screenshot_{location["name"]}_lon_{lon_index}_lat_{lat_index}.png')
+                output_file = os.path.join(output_folder, f'screenshot {i}.png')     #Output filename
+                #{location["name"]}_lon_{lon_index}_lat_{lat_index}   [use if requried]
                 cropped_image.save(output_file)
 
-                print(f"Iteration (Location: {location['name']}, Longitude: {lon_index + 1}, Latitude: {lat_index + 1}) completed, with url - {current_url}")
+                print(f"Iteration:{i}, Current url - {current_url}")        #Progress Log
+                #(Location: {location['name']}, Longitude: {lon_index + 1}, Latitude: {lat_index + 1}) completed [use if requrired]
+                i+=1
 
 # Variables
-url_template = 'https://www.openstreetmap.org/#map=17/{lat:.5f}/{lon:.5f}'
-output_folder = 'D:/Progasm/venv/OSM_Y/OUT IMAGES/test_1'
+url_template = 'https://www.openstreetmap.org/#map=17/{lat:.5f}/{lon:.5f}'      #Input URL
+output_folder = 'D:/Progasm/venv/OSM_Y/OUT IMAGES/test_1'                       #Output desination
 
 start_coordinates = (437, 195)
 end_coordinates = (1870, 999)
 
 # YAML file config
-coordinates_file = 'OSM.yml'
+coordinates_file = 'OSM.yml'                    #YMAL file location
 locations = load_coordinates(coordinates_file)
 
-lon_step_ratio = 0.00359625 # lenght of image
-lat_step_ratio = 0.00118875 # width of image
+lon_step_ratio = 0.00359625     # Constant length of image
+lat_step_ratio = 0.00118875     # Constant width of image
 
 os.makedirs(output_folder, exist_ok=True)
 for location in locations:
