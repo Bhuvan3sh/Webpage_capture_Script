@@ -6,6 +6,7 @@
 #YAML file config
 
   - name: "Pennsilvena State University"
+                #Start   ,  END
     lat_range: [40.79329, 40.80262]
     lon_range: [-77.84608, -77.86688]
 
@@ -16,3 +17,407 @@
   - name: "UC San Diego"
     lat_range: [32.88836, 32.84715]
     lon_range: [-117.25075, -117.17694]
+
+  - name: "university of oxford"
+    lat_range: [51.75810,51.75690]
+    lon_range: [-1.26019,-1.26488]
+
+  - name: "Harvard University"
+    lat_range: [42.38291, 42.35910]
+    lon_range: [-71.11782, -71.12175]
+
+  - name: "University of Cambridge"
+    lat_range: [52.20519,52.20460 ]
+    lon_range: [0.11928, 0.11774]
+
+  - name: "Stanford University"
+    lat-range: [37.44284, 37.41847 ]
+    lon_range: [-122.16593, -122.17210]
+
+  - name: "Massachusetts Institute of Technology"
+    lat_range: [42.36235, 42.35316]
+    lon_range: [-71.09194, -71.10299]
+
+  - name: "California Institute of Technology"
+    lat_range: [34.14113, 34.13186]
+    lon_range: [-118.12336,-118.12511]
+
+  - name: "Princeton University"
+    lat_range: [40.35515, 40.31973]
+    lon_range: [-74.66359, -74.63392 ]
+
+  - name: "University of California, Berkeley"
+    lat_range: [37.88283, 37.86177]
+    lon_range: [-122.23803, -122.24835]
+
+  - name: "Northwestern University"
+    lat_range: [42.06829,42.04812]
+    lon_range: [-87.69296,-87.67322]
+
+  - name: "Yale University"
+    lat_range: [41.32797,41.25106]
+    lon_range: [-72.91978,-72.99567]
+
+  - name: "Imperial College London"
+    lat_range: [51.50015, 51.49682]
+    lon_range: [-0.17622, -0.17524]
+
+  - name: "Columbia University"
+    lat_range: [40.80991,40.80496]
+    lon_range: [-73.96036,-73.96049]
+
+  - name: "ETH Zurich"
+    lat_range: [47.37631,47.37110]
+    lon_range: [8.55629,8.55173]
+
+  - name: "The University of Chicago"
+    lat_range: [41.79449,41.78725]
+    lon_range: [-87.60084,-87.59961]
+
+  - name: "University of Pennsylvania"
+    lat_range: [39.95514,39.93922]
+    lon_range: [-75.20065,-75.19679]
+
+  - name: "Johns Hopkins University"
+    lat_range: [39.33591,17/39.32034]
+    lon_range: [-76.62227,-76.61518]
+
+  - name: "Tsinghua University"
+    lat_range: [40.01158,39.99073]
+    lon_range: [116.32072,116.31767]
+
+  - name: "Peking University"
+    lat_range: [39.99784,39.98459]
+    lon_range: [116.30732,116.30567]
+
+  - name: "University of Toronto"
+    lat_range: [43.66809,43.65771]
+    lon_range: [-79.39024,-79.39649]
+
+  - name: "National University of Singapore"
+    lat_range: [1.30225,1.28887]
+    lon_range: [103.77431, 103.78202]
+
+  - name: "Cornell University"
+    lat_range: [42.46414,42.41396]
+    lon_range: [-76.45587,-76.24880]
+
+  - name: "University of California, Los Angeles"
+    lat_range: [34.07117,34.06070]
+    lon_range: [-118.16569,-118.17220]
+
+  - name: "UCL"
+    lat_range: [51.52635,51.52119]
+    lon_range: [-0.12913, -0.13332]
+
+  - name: "University of Michigan-Ann Arbor"
+    lat_range: [42.31209,42.24172]
+    lon_range: [-83.67283,-83.73566]
+
+  - name: "New York University"
+    lat_range: [40.73186,40.72528]
+    lon_range: [-73.99617,-73.99492]
+
+  - name: "Duke University"
+    lat_range: [36.00934,35.99102]
+    lon_range: [-78.91786,-78.93910]
+
+  - name: "University of California, San Diego"
+    lat_range: [32.89349,32.86294]
+    lon_range: [-117.24121,-117.25195]
+
+  - name: "University of Washington"
+    lat_range: [47.66565,47.64771]
+    lon_range: [-122.29699,-122.30263]
+
+  - name: "Carnegie Mellon University"
+    lat_range: [40.44826,40.43978]
+    lon_range: [-79.94860,-79.93972]
+
+  - name: "University of Edinburgh"
+    lat_range: [55.94609,55.94124]
+    lon_range: [-3.18641,-3.18329]
+
+  - name: "Technical University of Munich"
+    lat_range: [48.26978,48.26052]
+    lon_range: [11.67043,11.67146]
+
+  - name: "University of Hong Kong"
+    lat_range: [22.28403,22.28010]
+    lon_range: [114.13914,114.14031]
+
+  - name: "LMU Munich"
+    lat_range: [48.15145,48.14867]
+    lon_range: [11.58113,11.58191]
+
+  - name: "University of Melbourne"
+    lat_range: [-37.80398,-37.80470]
+    lon_range: [144.96137,144.96171]
+
+  - name: "Chinese University of Hong Kong"
+    lat_range: [22.42751,22.4109]
+    lon_range: [114.20532,114.2129]
+
+  - name: "King’s College London"
+    lat_range: [51.50583,51.50424]
+    lon_range: [-0.11030,-0.11101]
+
+  - name: "Nanyang Technological University, Singapore"
+    lat_range: [1.35634,1.3383]
+    lon_range: [103.68939,103.6834]
+
+  - name: "London School of Economics and Political Science"
+    lat_range: [51.51528,51.51274]
+    lon_range: [-0.11639,-0.11329]
+
+  - name: "Georgia Institute of Technology"
+    lat_range: [33.78295,33.76790]
+    lon_range: [-84.39479,-84.38955]
+
+  - name: "The University of Tokyo"
+    lat_range: [35.89429,35.89394]
+    lon_range: [139.95400,139.95430]
+
+  - name: "University of British Columbia"
+    lat_range: [49.27252,49.24281]
+    lon_range: [-123.24786,-123.22620]
+
+  - name: "École Polytechnique Fédérale de Lausanne"
+    lat_range: [46.52182,46.51474]
+    lon_range: [6.56496,6.56188]
+
+  - name: "KU Leuven"
+    lat_range: [50.80812,50.80234]
+    lon_range: [3.29692,3.29505]
+
+  - name: "Universität Heidelberg"
+    lat_range: [49.42685,49.41104]
+    lon_range: [8.66565,8.67689]
+
+  - name: "Monash University"
+    lat_range: [-37.90544,-37.91697]
+    lon_range: [145.13939,145.14475]
+
+  - name: "University of Manchester"
+    lat_range: [53.47618,53.45929]
+    lon_range: [-2.23260,-2.22866]
+
+  - name: "McGill University"
+    lat_range: [45.51190,45.50086]
+    lon_range: [-73.58122,-73.58046]
+
+  - name: "University of Illinois "
+    lat_range: [40.11590,40.08271]
+    lon_range: [-88.22602,-88.23648]
+
+  - name: "Karolinska Institute"
+    lat_range: [59.22159,59.21677]
+    lon_range: [17.94047,17.94109]
+
+  - name: "University of Texas at Austin"
+    lat_range: [30.29224,30.27441]
+    lon_range: [-97.73462,-97.73048]
+
+  - name: "Fudan University"
+    lat_range: [31.30414,31.29081]
+    lon_range: [121.49277,121.49938]
+
+  - name: "Shanghai Jiao Tong University"
+    lat_range: [31.20288,31.19765]
+    lon_range: [121.43200,121.42614]
+
+  - name: "The University of Queensland"
+    lat_range: [-27.49223,-27.50400]
+    lon_range: [153.01245, 153.01086]
+
+  - name: "Brown University"
+    lat_range: [41.83280,41.82199]
+    lon_range: [-71.39283,-71.39793]
+
+  - name: "The University of Sydney"
+    lat_range: [-33.88548,-33.89341]
+    lon_range: [151.18857,151.19170]
+
+  - name: "Seoul National University"
+    lat_range: [37.46861,37.44648]
+    lon_range: [126.95418,126.95248]
+
+  - name: "Washington University in St Louis"
+    lat_range: [38.65084,38.64247]
+    lon_range: [-90.31273,-90.31000]
+
+  - name: "The Hong Kong University of Science and Technology"
+    lat_range: [22.33966,22.33124]
+    lon_range: [114.26449,114.26813]
+
+  - name: "Wageningen University & Research"
+    lat_range: [51.98943,51.98011]
+    lon_range: [5.66564,5.67120]
+
+  - name: "University of Amsterdam"
+    lat_range: [52.36827,52.36716]
+    lon_range: [4.89198,4.89142]
+
+  - name: "Australian National University"
+    lat_range: [-35.27332,-35.29040]
+    lon_range: [149.11901,149.11962]
+
+  - name: "University of California"
+    lat_range: [37.88224,37.86198]
+    lon_range: [-122.24437,-122.24761]
+
+  - name: "University of California, Santa Barbara"
+    lat_range: [34.42368,34.40429]
+    lon_range: [-119.85963,-119.84254]
+
+  - name: "University of Southern California"
+    lat_range: [34.02475,34.01791]
+    lon_range: [-118.28955,-118.28482]
+
+  - name: "Utrecht University"
+    lat_range: [52.08439,52.08134]
+    lon_range: [5.14957,5.15080]
+
+  - name: "Zhejiang University"
+    lat_range: [28.46654,28.45814]
+    lon_range: [119.90250,119.90034]
+
+  - name: "Kyoto University"
+    lat_range: [35.02795,35.02477]
+    lon_range: [135.78169,135.78270]
+
+  - name: "University of North Carolina at Chapel Hill"
+    lat_range: [35.91547,35.8927]
+    lon_range: [-79.04241,-79.0283]
+
+  - name: "Delft University of Technology"
+    lat_range: [52.00885,51.98761]
+    lon_range: [4.37161,4.37808]
+
+  - name: "Boston University"
+    lat_range: [42.35436,42.34624]
+    lon_range: [-71.12243,-71.10528]
+
+  - name: "UNSW Sydney"
+    lat_range: [-33.90607,-33.90721]
+    lon_range: [151.23513,151.23652]
+
+  - name: "Charité - Universitätsmedizin Berlin"
+    lat_range: [52.53017,52.52596]
+    lon_range: [13.34890,13.34879]
+
+  - name: "University of Science and Technology of China"
+    lat_range: [31.84254,31.83644]
+    lon_range: [117.24858,117.25113]
+
+  - name: "University of Groningen"
+    lat_range: [53.19868,53.19811]
+    lon_range: [5.79763,5.79807]
+
+  - name: "University of Bristol"
+    lat_range: [51.46070,51.45501]
+    lon_range: [-2.60261,-2.60032 ]
+
+  - name: "Leiden University"
+    lat_range: [52.15714,52.15629]
+    lon_range: [4.48684,4.48592 ]
+
+  - name: "Yonsei University"
+    lat_range: [37.57472,37.55985]
+    lon_range: [126.94166,126.93738]
+
+  - name: "Hong Kong Polytechnic University"
+    lat_range: [22.30699,22.30189]
+    lon_range: [114.18089,114.18084]
+
+  - name: "Erasmus University Rotterdam"
+    lat_range: [51.91951,51.91463]
+    lon_range: [4.52622,4.52809]
+
+  - name: "University of Wisconsin-Madison"
+    lat_range: [43.09217,43.06742]
+    lon_range: [-89.42946,-89.41215]
+
+  - name: "Emory University"
+    lat_range: [33.80674,33.78769]
+    lon_range: [-84.32899,-84.32264]
+
+  - name: "University of Glasgow"
+    lat_range: [55.87475,55.86962]
+    lon_range: [-4.28957,-4.29326]
+
+  - name: "University of Zurich"
+    lat_range: [47.49751,47.49524]
+    lon_range: [8.72791,8.73270]
+
+  - name: "McMaster University"
+    lat_range: [43.26945,43.25739]
+    lon_range: [-79.91033,-79.91965]
+
+  - name: "Humboldt University of Berlin"
+    lat_range: [52.51873,52.51712]
+    lon_range: [13.39583,13.39427]
+
+  - name: "University of Tübingen"
+    lat_range: [48.54149,48.52308]
+    lon_range: [9.03645,9.05617]
+
+  - name: "University of Adelaide"
+    lat_range: [-34.91759,-34.92151]
+    lon_range: [138.60739,138.60658]
+
+  - name: "University of Bonn"
+    lat_range: [50.72893,50.72274]
+    lon_range: [7.08511,7.09545]
+
+  - name: "Sorbonne University"
+    lat_range: [48.84764,48.84638]
+    lon_range: [2.34766,2.34796]
+
+  - name: "Korea Advanced Institute of Science and Technology (KAIST)"
+    lat_range: [37.59525,37.59113]
+    lon_range: [127.04822,127.04962]
+
+  - name: "University of Bern "
+    lat_range: [46.95180,46.94932]
+    lon_range: [7.43934,7.43817]
+
+  - name: "University of California, Irvine"
+    lat_range: [33.65407,33.6306]
+    lon_range: [-117.84309,-117.8385]
+
+  - name: "Institut Polytechnique de Paris"
+    lat_range: [48.71702,48.70942]
+    lon_range: [2.20658,2.21329]
+
+  - name: "Nanjing University"
+    lat_range: [32.06042,32.05166]
+    lon_range: [118.77121,118.77759]
+
+  - name: "Vanderbilt University"
+    lat_range: [36.15004,36.13634]
+    lon_range: [-86.79786,-86.80187]
+
+  - name: "City University of Hong Kong"
+    lat_range: [22.33985,22.33412]
+    lon_range: [114.17057,114.17486]
+
+  - name: "RWTH Aachen University"
+    lat_range: [50.79190,50.77338]
+    lon_range: [6.05198,6.04942]
+
+  - name: "University of Basel"
+    lat_range: [47.56517,47.55730]
+    lon_range: [7.58141, 7.58572]
+
+  - name: "King Abdulaziz University"
+    lat_range: [21.50093,21.4828]
+    lon_range: [39.24137,39.2426]
+
+  - name: "University of Minnesota"
+    lat_range: [44.99832,44.96527]
+    lon_range: [-93.19563,-93.23479]
+
+  - name: "University of Maryland, College Park"
+    lat_range: [39.00702,38.96679]
+    lon_range: [-76.94738,-76.92512]
