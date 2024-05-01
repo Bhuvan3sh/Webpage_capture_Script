@@ -76,7 +76,7 @@ def capture_screenshot(url_template, output_folder, location, start_coordinates,
 
 # Variables
 url_template = 'https://www.openstreetmap.org/#map=17/{lat:.5f}/{lon:.5f}'      #Input URL
-output_folder = 'D:/Progasm/venv/OSM_Y/OUT IMAGES/test_1'                       #Output desination
+output_folder = 'YOUR/DESIRED/LOCATION/TO/SAVE/THE/IMAGES'                       #Output desination
 
 start_coordinates = (437, 195)
 end_coordinates = (1870, 999)
